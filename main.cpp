@@ -63,7 +63,7 @@ void draw_line_clicked_cb()
 
 void draw_square_clicked_cb()
 {
-	myBoard->toolSelected = Rectange;
+	myBoard->toolSelected = Rectangle;
 }
 
 void draw_circle_clicked_cb()

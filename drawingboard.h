@@ -9,7 +9,7 @@
 
 using namespace std;
 
-enum Tool {Pencil, Eraser, Line, Circle, Rectange};
+enum Tool {Pencil, Eraser, Line, Circle, Rectangle};
 
 // Pixel
 class pixel

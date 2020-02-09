@@ -58,7 +58,7 @@
             </child>
             <child>
               <object class="GtkButton" id="draw_square">
-                <property name="label" translatable="yes">Draw Square</property>
+                <property name="label" translatable="yes">Draw Rectangle</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>

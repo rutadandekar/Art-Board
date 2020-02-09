@@ -62,7 +62,7 @@ bool drawingBoard::on_button_release_event (GdkEventButton* event)
 			case Circle:
 				drawCircle(x1,y1,x2,y2);
 				break;
-			case Rectange:
+			case Rectangle:
 				drawSquare(x1,y1,x2,y2);
 				break;
 		}
@@ -182,7 +182,6 @@ void drawingBoard::drawCircle(int x1,int y1,int x2,int y2)
 	
 	for(float a=0; a<6.28; a+=0.008)
 	{
-		cout<<a<<"\n";
 		pX = x1+int(r*cos(a));
 		pY = y1+int(r*sin(a));
 		plotPoint(&pX,&pY,&pH,&pW,&pS,&th);
